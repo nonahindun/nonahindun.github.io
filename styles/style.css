@@ -1,0 +1,169 @@
+/* selector */
+body {
+    /* property */
+    background-color:burlywood;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */ 
+ 
+/* star debug */
+.bg-brown {
+    background-color:brown
+}
+.bg-red{
+    background-color:red
+}
+
+.bg.darksalmon {
+    background-color: darksalmon
+}
+/* end debug */
+
+/* Star container */
+
+.container {
+    margin: 10px;
+    overflow: auto;
+    width: 90%;
+}
+.container-full{
+    margin: 10px;
+    overflow: auto;
+    width: 90%;
+}
+/* end container */
+
+/* Star Logo */
+.logo {
+    text-align: center
+}
+/* end logo */
+
+/* star anchor /hiperlink */
+a:link,
+a:visited {
+    color: #366d36;
+    text-decoration: none;
+}
+/* end anchor /hiperlink */
+
+/* star menu primer */
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px- -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #333333;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: aqua;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: blueviolet;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* star heading */
+
+/* end heading */
+h1, h2, h3, h4, h5, h6, {
+    font-weight: 400;
+    letter-spacing;
+}
+h1 {
+    font-size: 28px
+}
+h2 {
+    font-size: 24px
+}
+h3 {
+    font-size: 18px
+}
+h4 {
+    font-size: 16px
+}
+h5 {
+    font-size: 14px
+}
+h6 {
+    font-size: 13px
+}
+/* end heading */
+
+/* star jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* star main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: left;
+    width: 49.5%;
+}
+/* end main */
+
+/* star box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box */
